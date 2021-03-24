@@ -88,7 +88,6 @@ cout<<employe_info.sales<<" Create password ";
 getline(cin,login.sales_password);
 //home menu
 int choice ;
-char goback;
 string company_name= supermarket_info.name;
 //for manager login//
 string try_m_id,try_m_password;
@@ -111,7 +110,7 @@ else if(choice==4)
 system("exit");
 else
 
-cout<<"wrong input/n";
+cout<<"wrong input\n";
     system("cls");
     home_menu(company_name);
 
